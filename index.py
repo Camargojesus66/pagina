@@ -17,6 +17,3 @@ def productos(tennis):
     producto = db['tennis']
     productosrecividos = producto.find({'name': tennis})
     return render_template('index.html', producto = productosrecividos)
-
-
-
