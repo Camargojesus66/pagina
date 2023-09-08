@@ -11,3 +11,4 @@ def dbConnection():
     except ConnectionError:
         print('Error de conexión con la bdd')
     return db
+
